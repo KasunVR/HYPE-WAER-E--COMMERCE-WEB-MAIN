@@ -1,0 +1,17 @@
+/* Suppress CSS linting warnings for Tailwind directives */
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable */
+
+/* Custom global styles can be added below */
+
+:root {
+	--color-main: #3232af;
+	--color-primary: #898994;
+}
+
+/* Optional helper classes for direct CSS usage */
+.bg-main { background-color: var(--color-main); }
+.text-primary { color: var(--color-primary); }

@@ -1,0 +1,41 @@
+{
+  "name": "hype-were-cloth-shop",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A modern cloth shop web application built with React, Vite, and Tailwind CSS.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/fabric": "^5.3.10",
+    "autoprefixer": "^10.0.0",
+    "fabric": "^6.7.1",
+    "lucide-react": "^0.545.0",
+    "postcss": "^8.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "@vitejs/plugin-react": "^5.0.4",
+    "is-core-module": "^2.16.1",
+    "typescript": "^4.0.0",
+    "vite": "^5.4.20"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "tailwindcss",
+    "ecommerce"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
